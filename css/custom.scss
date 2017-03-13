@@ -28,14 +28,18 @@
 $linkColor: #e7ad52;
 $quoteColor: #8fadd0;
 $success: #2ecc71;
+$white: #fff;
 
 // block elements
 
 .reveal blockquote {
+	background: rgba(0,0,0,.5);
 	color: $quoteColor;
 	font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 1.8em;
     margin-bottom: 1em;
+    padding: 0.8em;
+    @include text-shadow;
 	width: 94%;
 
 	&:before {
@@ -92,9 +96,17 @@ $success: #2ecc71;
  *********************************************/
 
 
-.reveal section img.plain {
-  background: transparent;
- }
+.reveal section {
+	img.plain {
+  		background: transparent;
+  	}
+
+  	.bosses {
+  		img {
+  			width: 24%;
+  		}
+  	}
+}
 
 
 /*********************************************
