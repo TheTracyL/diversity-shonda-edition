@@ -29,6 +29,9 @@
     font-family: FontAwesome;
     margin-left: 0.4em; }
 
+.reveal .black-bg {
+  background: rgba(0, 0, 0, 0.5); }
+
 /*********************************************
  * LAYOUT
  *********************************************/
@@ -44,6 +47,8 @@
   .reveal div.left blockquote, .reveal div.right blockquote {
     font-size: 1.2em;
     width: 98%; }
+.reveal div.right {
+  padding-right: 0.4em; }
 .reveal .horizontal-list {
   width: 100%; }
   .reveal .horizontal-list li {

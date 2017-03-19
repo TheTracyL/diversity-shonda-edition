@@ -55,6 +55,10 @@ $white: #fff;
 	}
 }
 
+.reveal .black-bg {	
+	background: rgba(0,0,0,.5);
+}
+
 
 /*********************************************
  * LAYOUT
@@ -79,6 +83,10 @@ $white: #fff;
 			font-size: 1.2em;
 			width: 98%;
 		}
+	}
+
+	div.right {
+		padding-right: 0.4em;
 	}
 
 	.horizontal-list {
